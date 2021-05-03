@@ -9,4 +9,4 @@ RUN apt-get update && \
     rm -rf /var/lib/apt/lists/*
 COPY --from=builder /usr/bin/wg /usr/bin/wg-quick /usr/bin/
 WORKDIR /root
-CMD [ "/bin/sh" , "-c", " while true;do sleep 360;done;" ]
+CMD [ "/bin/sh" , "-c", " while true;do sleep 600;done;" ]
