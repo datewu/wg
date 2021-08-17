@@ -26,7 +26,7 @@ spec:
             name: wg0-conf
       containers:
         - name: wireguard
-          image: datewu/wg:v1.0.20210124
+          image: datewu/wg:v1.0.20210817
           imagePullPolicy: Always
           lifecycle:
             postStart:
